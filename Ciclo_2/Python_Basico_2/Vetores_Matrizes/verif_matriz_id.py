@@ -1,23 +1,6 @@
-while True:
-    try:
-        linhas = int(input('Digite a quantidade de linhas da matriz: '))
-        if linhas <= 0:
-            print('Valor INVÁLIDO! Digite apenas inteiros maiores que "0"!')
-        else:
-            break
-    except:
-        print('Valor INVÁLIDO! Digite apenas valores inteiros!')
+linhas = int(input('Digite a quantidade de linhas da matriz: '))
 
-
-while True:
-    try:
-        colunas = int(input('Digite a quantidade de colunas da matriz: '))
-        if colunas <= 0:
-            print('Valor INVÁLIDO! Digite apenas inteiros maiores que "0"!')
-        else:
-            break
-    except:
-        print('Valor INVÁLIDO! Digite apenas valores inteiros!')
+colunas = int(input('Digite a quantidade de colunas da matriz: '))
 
 
 matriz = list()
